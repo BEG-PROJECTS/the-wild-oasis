@@ -2,7 +2,7 @@ import React from "react"
 import { Outlet } from "react-router-dom"
 import styled from "styled-components"
 import Header from "./Header"
-import SideBar from "./SideBar"
+import Sidebar from "./Sidebar"
 import Spinner from "./Spinner"
 
 const StyledAppLayout = styled.div`
@@ -32,7 +32,7 @@ function AppLayout() {
   return (
     <StyledAppLayout>
       <Header />
-      <SideBar />
+      <Sidebar />
       <Main>
         <Container>
           <React.Suspense fallback={<Spinner />}><Outlet /></React.Suspense>
