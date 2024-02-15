@@ -4,7 +4,7 @@ import { useCabins } from "../cabins/useCabins";
 import TodayActivity from "../check-in-out/TodayActivity";
 import DurationChart from "./DurationChart";
 import SalesChart from "./SalesChart";
-import Stats from "./stats";
+import Stats from "./Stats";
 import { useRecentBookings } from "./useRecentBookings";
 import { useRecentStays } from "./useRecentStays";
 
