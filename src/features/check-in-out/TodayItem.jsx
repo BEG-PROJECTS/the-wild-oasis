@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Button from '../../ui/Button';
 import { Flag } from '../../ui/Flag';
 import Tag from '../../ui/Tag';
-import CheckoutButton from './checkoutButton';
+import CheckoutButton from './CheckoutButton';
 
 const StyledTodayItem = styled.li`
   display: grid;
