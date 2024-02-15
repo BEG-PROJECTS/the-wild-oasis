@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import UserAvatar from '../features/authentication/UserAvatar';
-import HeaderMenu from "./headerMenu";
+import HeaderMenu from "./HeaderMenu";
 
 const StyledHeader = styled.header`
   display: flex;
